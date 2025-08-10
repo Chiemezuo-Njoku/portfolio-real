@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>contacts</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: lightgray;
+            }
+            .realcontainer{
+                display: flex;
+                height: 140vh;
+                align-items: center;
+                padding-right: 50px;
+                padding-left: 50px;
+                
+            }
+            .container{
+                flex: 1;
+                display: flex;
+                gap: 5px;
+                flex-wrap: wrap;
+                height: 70vh;
+                flex-basis: 200px;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                border: 10px solid white;
+                border-radius: 20px;
+            }
+            .card1{
+                height: 500px;
+                width: 500px;
+                border-radius: 10px;
+                padding: 1px;
+            }
+            .card2{
+                background-color: lightgray;
+                height: 500px;
+                width: 500px;
+                border-radius: 10px;
+                display: flex;
+                gap: 30px;
+                flex-direction: column;
+                font-family: "Chicle", serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .card21{
+                flex: 1;
+                background-color: lightgray;
+                border: 3px solid white;
+                border-radius: 10px;
+                padding-left: 20px;
+            }
+            .card22{
+                flex: 11;
+                background-color: lightskyblue;
+                border-radius: 10px;
+                height: 100vh;
+                justify-content: center;
+                text-align: center;
+                padding: 100px;
+            }
+            img{
+                height: 500px;
+                width: 400px;
+                border-radius: 1000px;
+            }
+            li{
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="realcontainer">
+            <div class="container">
+                <div class="card1"><img src="images/IMG_2551.jpg"></div>
+                <div class="card2">
+                    <div class="card21"><h1>Contact information</h1></div>
+                    <div class="card22">
+                        <ul>
+                            <li>email:  mezuornjoku@gmail.com</li>
+                            <li>phone number: 601-434-9592</li>
+                            <li><a href="https://www.linkedin.com/in/chiemezuo-njoku-a444aa2ab/">linkdIn</a></li>
+                            <li><a href="https://app.colorstack.io/profile/general">Colorstack</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>

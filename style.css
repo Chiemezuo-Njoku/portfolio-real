@@ -1,0 +1,119 @@
+body{
+    background-color: lightgray;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    max-width: 1495.8px;
+    height: 160vh;
+}
+.card1{
+    min-height: 30px;
+    display: flex;
+    background-color: lightskyblue;
+    border-radius: 10px
+}
+.card2{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    flex-basis: 300px;
+    padding: 5px;
+}
+.card3{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.card4{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.sub-box1{
+    flex: 0.5;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+.sub-box11{
+    flex: 2;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+.button{
+    background-color: lightskyblue;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.about_image{
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 400px;
+    float: left;
+}
+.button-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.sub-box2{
+    flex: 1;
+    border-radius: 10px;
+}
+.sub-box21{
+    flex: 9.5;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    height: 90vh;
+    justify-content: space-around;
+}
+.sub-box211{
+    flex: 1;
+    border-radius: 10px;
+    max-width: 300px;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.skillimage{
+    height: 200px;
+    width: 200px;
+    border-radius: 400px;
+    margin-bottom: 10px;
+}
+#centered{
+    text-align: center;
+    margin-right: 80px;
+}
